@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" /> -->
+  <link rel="icon" href="assets/img/icon.png" type="image/x-icon"/>
+  <!--=============== BOXICONS ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css" > -->
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Amala</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo"><i class="fa fa-adjust"></i><span>A</span>mala</a>
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="bx bx-home-alt"></i>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="bx bx-user"></i>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-book"></i>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">
+              <i class="bx bx-briefcase-alt-2"></i>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="bx bx-message-square-detail"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Theme change button -->
+      <i class="bx bx-moon change-theme" id="theme-button"></i>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">Hello, I'm</span>
+          <h1 class="home__name">AMALA TV</h1>
+          <h1 class="home__education">WEB <span>DEVELOPER</span> & DESIGNER</h1>
+
+          <div class="home__buttons">
+            <a download="" href="" class="button button--ghost">
+              Download CV
+            </a>
+            <!-- <a href="#about" class="button">About me</a> -->
+          </div>
+        </div>
+        <div class="home__handle">
+          <img src="assets/img/removebg-preview.png" alt="home_img" class="home__img" />
+        </div>
+        <div class="home__social">
+          <a href="https://x.com/amala_tv" target="_blank" class="home__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://github.com/Amalatv" target="_blank" class="home__social-link">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="mailto:amalatv.amala@gmail.com" target="_blank" class="home__social-link">
+            <i class="bx bx-mail-send contact__card--icon"></i>
+          </a>
+        </div>
+
+        <a href="#about" class="home__scroll">
+          <i class="bx bx-mouse home__scroll-icon"></i>
+          <span class="home__scroll-name">Scroll Down</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <span class="section__subtitle">My Intro</span>
+      <h2 class="section__title">About Me</h2>
+
+      <div class="about__container container grid">
+        <img src="assets/img/working-woman.jpg" alt="" class="about__img">
+
+        <div class="about__data">
+          <div class="about__info">
+            <div class="about__box">
+              <i class="bx bx-award about__icon"></i>
+              <h3 class="about__title">Experience</h3>
+              <span class="about__subtitle">1 Years Working</span>
+            </div>
+
+
+            <div class="about__box">
+              <i class="bx bx-briefcase-alt about__icon"></i>
+              <h3 class="about__title">Completed</h3>
+              <span class="about__subtitle">6 Projects</span>
+            </div>
+
+            <div class="about__box">
+              <!-- <i class="fa-solid fa-user-graduate"></i> -->
+              <i class="bx bx-book about__icon"></i>
+              <h3 class="about__title">Graduate</h3>
+              <span class="about__subtitle">B.Tech</span>
+            </div>
+          </div>
+
+          <p class="about__description"> Enthusiastic And Self <span>Motivated</span>  WEB <span>DEVELOPER</span> & DESIGNER</p>
+
+          <a href="#contact" class="button">Contact Me</a>
+        </div>      
+      </div>
+    </section>
+    <!--=============== BUSNESS ===============-->
+
+    <section class="work section" id="">
+      <span class="section__subtitle">My Skills</span>
+      <h2 class="section__title">I Know That Effective <span>Design</span>  <br> Drives <span>Successful</span>  Business.</h2>
+      <div class="business__container container grid ">
+
+        <div class="work__card business__card">        
+          <img src="assets/img/ui.png" alt="" class="work__img">
+          <h3 class="work__title">Web Design</h3>
+          <p>I am a frontend developer with passion for building beautiful and functional web</p>
+          
+        </div>
+
+        <div class="work__card business__card">
+          <img src="assets/img/backend.png" alt="" class="work__img">
+          <h3 class="work__title">Backend Development</h3>
+          <p> Expert in building and maintain the mechanisms that process data and perform actions on websites</p>
+         
+        </div>
+
+        <div class="work__card business__card">
+          <img src="assets/img/frontend.png" alt="" class="work__img">
+          <h3 class="work__title">Frontend Developer</h3>
+          <p>Design and create websites and applications for various platforms</p>
+         
+        </div>
+
+       
+    </section>
+
+    <!--=============== SKILLS ===============-->
+    <section class="skills section" id="skills">
+      <span class="section__subtitle">My abilities</span>
+      <h2 class="section__title">Skills & Experience</h2>
+
+      <div class=" container pic">
+        <!-- <img src="assets/img/Me2.gif" alt="" class="picsize"> -->
+
+        <p class="about__description"> Stackup Learninghub - WEB <span>DEVELOPER</span> & DESIGNER Intern</p>
+
+      </div>
+
+      <div class="skills__container container skill-grid">
+        <div class="skills__content">
+          <h3 class="skills__title"> Front End</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+             
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">React.js</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+
+              <!-- <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Redux</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div> -->
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">JavaScript</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">HTML,CSS</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Figma</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+
+
+            </div>
+            <div class="skills__group">
+              <div class="skills__data">
+              
+              <!-- <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/a804a741fb26f6c236c73086a87cfc9f64106401-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/40e44bdd9f66de17cfd9dfc24acdacd818f703f2-287x175.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/91716227a0183f05eb4c2c846dda4ec6d3ea433c-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/107574d887f1c07c9fbea0704de7f293e244a8f3-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/31f11147f89dbd855a9b948e2ce643ea2f41c0a9-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/107574d887f1c07c9fbea0704de7f293e244a8f3-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/107574d887f1c07c9fbea0704de7f293e244a8f3-480x480.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skill-card">
+                   <img src="https://cdn.sanity.io/images/0mhy4cqa/production/40e44bdd9f66de17cfd9dfc24acdacd818f703f2-287x175.png">
+                   <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+            </div>
+            <div class="skills__group">
+              <div class="skills__data"> -->
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills__content">
+          <h3 class="skills__title">Back End</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Node.js</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Express.js</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">MongoDB</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">MySQL</h3>
+                  <!-- <span class="skills__level">Intermediate</span> -->
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <!--=============== WORK ===============-->
+    <section class="work section" id="work">
+      <span class="section__subtitle">My Portfolio</span>
+      <h2 class="section__title">Recent Works</h2>
+
+      <div class="work__filters">
+        <span class="work__item active-work" data-filter='all'>All</span>
+        <span class="work__item" data-filter='.web'>Backend</span>
+        <span class="work__item" data-filter='.mobil'>Web</span>
+        <span class="work__item" data-filter='.design'>UI/UX</span>
+      </div>
+
+      <div class="work__container container grid">
+
+        <!-- <div class="work__card mix mobil">
+          <video autoplay loop muted plays-inline class="work__img">
+            <source src="assets/img/3d.mp4" type="video/mp4">
+          </video>
+          <h3 class="work__title">3D-Carousel Slider</h3>
+
+          <a href="https://www.figma.com/proto/v3dttg8VLmN9BKvFNHSzIp/3D-Carousel-Slider?page-id=0%3A1&node-id=2-153&viewport=557%2C1493%2C0.77&t=sWn6Mu3L6znXnWHd-1&scaling=scale-down&starting-point-node-id=1%3A4"
+            class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div> -->
+
+        <div class="work__card mix mobil">
+          <img src="assets/img/flex-1.png" alt="" class="work__img">
+          <h3 class="work__title">School-Flex Responsive</h3>
+
+          <a href="https://amalatv.github.io/FlexProject/" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix mobil">
+          <img src="assets/img/mob.png" alt="" class="work__img">
+          <h3 class="work__title">Travel Responsive</h3>
+
+          <a href="https://amalatv.github.io/RouteX/" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix web">
+          <img src="assets/img/node.png" alt="" class="work__img">
+
+          <h3 class="work__title">Employee Management System</h3>
+
+          <a href="https://employee-management-system-4va6.onrender.com/"
+            class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix web">
+          <img src="assets/img/ui-sign.png" alt="" class="work__img">
+          <h3 class="work__title">Signup Design</h3>
+
+          <a href="https://employee-management-system-4va6.onrender.com/" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+
+        <div class="work__card mix design">
+          <img src="assets/img/WebWarp.png" alt="" class="work__img">
+          <h3 class="work__title">Web-Warp bootstrap</h3>
+
+          <a href="https://amalatv.github.io/Bootstrap/" class="work__button">
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </a>
+        </div>
+    </section>
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <span class="section__subtitle">Get in touch</span>
+      <h2 class="section__title">Contact Me</h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h3 class="contact__title">Talk to me</h3>
+
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="bx bxl-github"></i>
+              <h3 class="contact__card-title">Git Hub</h3>
+              <span class="contact__card-data">Amalatv</span>
+
+              <a href="https://github.com/Amalatv" target="_blank"
+                class="contact__button">
+                Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <!-- <div class="contact__card">
+              <i class="bx bx-mail-send contact__card--icon"></i>
+              <i class="bx bxl-instagram contact__card--icon"></i>
+              <h3 class="contact__card-title"></h3>
+              <span class="contact__card-data">AMALA TV</span>
+
+              <a href="https://www.instagram.com/Amala_______" target="_blank" class="contact__button">
+                Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div> -->
+
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card--icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">amalatv.amala@gmail.com</span>
+
+              <a href="mailto:amalatv.amala@gmail.com" target="_blank" class="contact__button">
+                Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- FORM  -->
+
+      </div>
+    </section>
+  </main>
+  <!-- Form Validation JS  -->
+  <script>
+    function validate() {
+      const form = document.getElementById("submit-form");
+      const email = document.getElementById("email").value;
+      const name = document.getElementById("name").value;
+      const message = document.getElementById("message").value;
+      const send = document.getElementById("send");
+      const emailText = document.querySelector(".indicator-text");
+      const messageText = document.querySelector(".message-text");
+      const nameText = document.querySelector(".name-text");
+      const response = {
+        email: false,
+        name: false,
+        message: false
+      }
+      const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
+      if (email.match(pattern)) {
+        form.classList.add('valid');
+        form.classList.remove('invalid');
+        emailText.innerHTML = ""
+        send.addEventListener("click", function (e) {
+          emailText.innerHTML = ""
+        })
+        response.email = true;
+
+      } else {
+        form.classList.add('invalid');
+        form.classList.remove('valid');
+        send.addEventListener("click", function (e) {
+          e.preventDefault();
+          emailText.innerHTML = "Enter Valid Email"
+        })
+        response.email = false;
+
+      }
+      if (email == "") {
+        form.classList.add('invalid');
+        form.classList.remove('valid');
+        response.email = false;
+      }
+      if (name.match(/[0-9]/) || name == "") {
+        form.classList.add('nameInvalid');
+        form.classList.remove('nameValid');
+        send.addEventListener("click", function (e) {
+          e.preventDefault();
+          nameText.innerHTML = "Name cannot be empty!"
+        })
+        response.name = false;
+
+      } else {
+        form.classList.add('nameValid');
+        form.classList.remove('nameInvalid');
+        nameText.innerHTML = ""
+        send.addEventListener("click", function (e) {
+          nameText.innerHTML = ""
+        })
+
+        response.name = true;
+
+      }
+      if (message.length < 5) {
+        form.classList.add('messageInvalid');
+        form.classList.remove('messageValid');
+        send.addEventListener("click", function (e) {
+          e.preventDefault();
+          messageText.innerHTML = "Messsage cannot be empty!"
+
+        })
+        response.message = false;
+
+      } else {
+        form.classList.add('messageValid');
+        form.classList.remove('messageInvalid');
+        messageText.innerHTML = ""
+        send.addEventListener("click", function (e) {
+          messageText.innerHTML = ""
+
+        })
+
+        response.message = true;
+      }
+      if (response.email && response.message && response.name) {
+
+        return true;
+      } else {
+
+        return false;
+      }
+    }
+  </script>
+
+  <!-- =============== FOOTER =============== -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Code With Amala</h1>
+
+      <ul class="footer__list">
+        <li>
+          <a href="#about" class="footer__link">About</a>
+        </li>
+        <li>
+          <a href="#work" class="footer__link">Projects</a>
+        </li>
+      </ul>
+
+      <ul class="footer__social">
+        <a href="https://github.com/Amalatv" target="_blank" class="footer__social-link">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.instagram.com/Amala_______" target="_blank" class="footer__social-link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://x.com/amala_tv" target="_blank" class="footer__social-link">
+          <i class="bx bxl-twitter"></i>
+        </a>
+      </ul>
+
+      <span class="footer__copy">
+        &#169; CodewithAmala. All rights reserved
+      </span>
+    </div>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MIXITUP FILTER ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <!-- Google sheets script  -->
+  <script>
+    async function handleSubmit(event) {
+      const isValidated = await validate();
+      console.log(isValidated);
+      if (isValidated) {
+
+        event.preventDefault()
+
+        $.ajax({
+          url: "https://script.google.com/macros/s/AKfycbyQYrmM7iKF54XbjV7hvYtJ19MCqOH4fhZr3oi6aUSzDZGgmp6vQnqxka1C3TedUx3Dag/exec",
+          data: $("#submit-form").serialize(),
+          method: "post",
+          success: function (response) {
+            alert("Form submitted successfully")
+            window.location.reload()
+          },
+          error: function (err) {
+            alert("Something Error")
+
+          }
+        })
+
+      } else {
+        event.preventDefault();
+      }
+
+    }
+
+
+  </script>
+</body>
+
+</html>
